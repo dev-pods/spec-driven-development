@@ -53,8 +53,8 @@ Revise [../.specs/requirements.md](../.specs/requirements.md) com base em [../.s
 Exemplo de prompt:
 
 ```text
-/speckit.clarify Identifique critérios de aceite faltando em #.specs/requirements.md
-e casos de borda para endpoints de tarefas.
+/speckit.clarify Identifique critérios de aceite faltando em #.specs/requirements.md e casos de borda para endpoints de tarefas.
+Se necessário crie a branch que atenda ao padrão da speckit.
 ```
 
 ### 2. Refinar tasks
@@ -93,14 +93,14 @@ Revise [../app/main.py](../app/main.py) comparando com [../.specs/requirements.m
 Exemplo de prompt:
 
 ```text
-@workspace A implementação em #app/main.py corresponde ao design em #.specs/design.md?
+#codebase A implementação em #app/main.py corresponde ao design em #.specs/design.md?
 Liste divergências objetivas.
 ```
 
 Você também pode pedir uma revisão contra as tasks:
 
 ```text
-@workspace Compare #.specs/tasks.md com #app/main.py e liste quais tasks ainda estão pendentes.
+#codebase Compare #.specs/tasks.md com #app/main.py e liste quais tasks ainda estão pendentes.
 ```
 
 ## Checkpoints sugeridos
